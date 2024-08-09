@@ -1,0 +1,16 @@
+# gitignore file
+
+# Ignore any files under any folder containing the word data in its name
+*data*/*
+
+# EXCEPT if it is an .md file (for the readmes and other documentations)
+!*data*/*.md
+
+# EXCEPT the example templates
+!2_data-toolkit/pathway-entry-term.png 
+!2_data-toolkit/pathway-entry-year.png 
+!2_data-toolkit/pathway-label.png 
+
+# Ignore Mac specific files
+.DS_Store
+*.stswp
